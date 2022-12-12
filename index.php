@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php
-    
-    
+    echo '<p> la femme est la <p/>'
     
     
     ?>

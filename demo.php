@@ -123,11 +123,11 @@ echo "- $i \n";
 
 //boucle foreach
 
-$notes = [10, 15, 20];
+/* $notes = [10, 15, 20];
 
 foreach ($notes as $note){
     echo "$note \n";
-}
+} */
 
 
 /* $eleves = [
@@ -143,7 +143,11 @@ foreach ($eleves as $classe => $listEleves){
     echo "\n";
 } */
 
-
+// LES FONCTIONS
+ $notes = [10, 13, 20];
+ $sum = array_sum($notes);
+ $count = count($notes);
+ echo  "$count \n$sum"; //"vous avez" . round($sum / $count ,2) . "de moyenne";
 
 
 ?>

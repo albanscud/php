@@ -144,10 +144,15 @@ foreach ($eleves as $classe => $listEleves){
 } */
 
 // LES FONCTIONS
- $notes = [10, 13, 20];
+ /* $notes = [10, 13, 20];
  $sum = array_sum($notes);
  $count = count($notes);
- echo  "$count \n$sum"; //"vous avez" . round($sum / $count ,2) . "de moyenne";
+ echo  "$count \n$sum"; //"vous avez" . round($sum / $count ,2) . "de moyenne"; */
+
+$notes = [10, 1, 15, 20];
+$notesReversed = array_reverse($notes);
+print_r($notes);
+print_r($notesReversed);
 
 
 ?>
